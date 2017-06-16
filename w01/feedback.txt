@@ -1,0 +1,87 @@
+Validation results for lg235/w01
+=====================================
+
+----------- Exercise: stdin
+Running 6 testcases: ALL PASSED
+
+Punkte: 2/2
+        * Tests okay 1P
+        * Style okay 1P
+
+
+----------- Exercise: whats-your-name
+Running 7 testcases: ALL PASSED
+
+Punkte: 2/2
+        * Tests okay 1P
+        * Style okay 1P
+
+Kommentar(e):
+        * Wenn möglich keine Zeilen, die länger als 80 Zeichen sind. Es ist
+          angenehmer für das Auge beim Lesen, wenn sie kürzer sind.
+
+
+----------- Exercise: add-two-ints
+Running 22 testcases: ALL PASSED
+
+Punkte: 2/2
+        * Tests okay 1P
+        * Style okay 1P
+
+
+----------- Exercise: average-rounded-number
+Running 9 testcases: ALL PASSED
+
+Punkte: 2/2
+        * Tests okay 1P
+        * Style okay 1P
+
+
+----------- Allgemein
+
+Punkte: 8/8
+
+Kommentar(e):
+        Style:
+        * Foglende Whitespace-Regelungen wären schön für das Auge:
+                - Gleichen Zeilenabstand zwischen package [...] und import [..]
+                  wie zwischen import [..] und [..] class [...], bzw. die erste
+                  Kommentarzeile, die dazu gehört. 
+                  Dann auch konsequent durch alle Dateien den gleichen Abstand.
+
+                - Zwischen Methoden bzw. deren Kommentare und der vorherigen
+                  Ende sollten die gleiche Anzahl an Leerzeilen enthalten sein.
+
+                - Am Ende von Methoden sollten keine Leerzeilen zwischen der
+                  letzen Operation und der schließenden Klammer } sein.
+
+        * Für Kommentare, die Methoden beschreiben, sollten die DocStrings
+          verwendet werden. Diese beginnen mit /** und jede neue Zeile mit * und
+          enden mit */ 
+          Darüberhinaus gibt es dann gewisse Tags, z.B: @param ..., @return...
+          die verwendet werden können, um die eigene API zu generieren und
+          dadurch recht hilfreich sein können.
+
+        * Kommentare innerhalb von Methoden, sollten bei wenigen Zeilen mit //
+          anfangen. Bei mehreren Zeilen kann man dann mit /* anfangen und mit */
+          enden.
+          Diese Kommentare sind gedacht, um die Funktion ggf. in Abschnitte zu
+          unterteilen, (auch mit einer Leerzeile getrennt). 
+          Und die Gedanken hinter den darauf folgenden Zeilen zu beschreiben,
+          damit man selbst auch nach 6 Monaten leichter wissen kann, was man
+          selbst gedacht hat.
+
+        * Folgende Namensgebung sollte beachtet werden:
+                - package Namen sind in smallcase
+                - Klassennamen sind in UpperCamelCase
+                - Methodennamen sind in lowerCamelCase
+                - lokale Variablen auch in lowerCamelCase
+                - Unterstriche (_) sind nur in Konstanten erlaubt, diese sind in
+                  SHIFT_CASE
+
+        * Es sollten nur die Java-Dateien mit der Ordnerstruktur hochgeladen
+          werden. PDF-Dateien, .imi-Dateien, und die .idea Ordner etc. haben
+          nichts im SVN verloren, und schon gar keine class Dateien, die sich im
+          out Ordner befinden.
+
+Bei Fragen/Unklarheiten/Kritik/Verwirrungen/etc. schreibe mir gerne eine E-Mail.
