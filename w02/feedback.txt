@@ -1,0 +1,97 @@
+Validation results for lg235/w02
+=====================================
+
+----------- Exercise: int-to-string
+Running 11 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* 
+
+
+----------- Exercise: integer-primitives
+Running 29 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Nette fitsIn Funktion. Sehr gut.
+	* Fast gut Kommentiert! Die Variablen könnte man noch beschreiben, was diese bedeuten etc.
+
+
+----------- Exercise: weird-numbers
+Running 41 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Nett. Gute Ideee mit dem boolean und dem Inline if.
+
+
+----------- Exercise: time-to-words
+Running 41 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Scanner kann man in so einem Fall im finally block schließen, aber ansonsten gut.
+	* Relativ kurze Lösung.
+	* Funktion nicht so gut kommentiert (DocStrings sind besser).
+
+
+----------- Exercise: simple-functions
+Running 21 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Man könnte die Variablen wieder etwas Beschreiben, abgesehen davon: gut. :-)
+
+
+----------- Exercise: convert-units
+Running 16 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Sehr schön. Zwei mal (fast) die gleiche Datei. :-D
+
+
+----------- Exercise: conditional-functions
+Running 24 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* 
+
+
+----------- General
+
+Punkte: 14.0/14
+Kommentar(e):
+	* Code Convensions sollten nun klar sein
+
+Bei Fragen/Unklarheiten/Kritik/Verwirrungen/etc. schreibe mir gerne eine E-Mail.

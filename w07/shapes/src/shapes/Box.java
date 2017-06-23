@@ -5,8 +5,10 @@ package shapes;
  * Created by thiemann on 11.06.17.
  */
 public class Box {
-    private final V2 upperLeftCorner;
-    private final V2 dimensions;
+	// Changed from private to protected so that we can access it from
+	// Rectangle. Saves at least 5 lines.
+    protected final V2 upperLeftCorner;
+    protected final V2 dimensions;
 
     /**
      * A box is defined by its upper left corner and its dimensions.
@@ -23,10 +25,18 @@ public class Box {
         this.dimensions = dimensions;
     }
 
+    /**
+     * Return upperLeftCorner
+     * @return
+     */
     public V2 getUpperLeftCorner() {
         return upperLeftCorner;
     }
 
+    /**
+     * Return dimensions
+     * @return
+     */
     public V2 getDimensions() {
         return dimensions;
     }

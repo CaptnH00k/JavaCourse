@@ -109,6 +109,7 @@ public class Rational {
 			   this.denominator == rat.getDenominator()) {
 				return true;
 			}
+			   
 		}
 		return false;
 	}

@@ -1,0 +1,66 @@
+Validation results for lg235/w03
+=====================================
+
+----------- Exercise: line-numbers
+Running 26 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Die Dokumentation ist vorhanden, nur nicht ganz den Java Convensionen entsprechend.
+	* Keine Exceptions pauschal abfangen.
+	* Wenn man Exceptions abfängt, dann sollte man auch was mit ihnen machen.
+	* Sehr schön: kein while(scan.hasNext...)
+
+
+----------- Exercise: second-highest
+Running 12 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* 
+
+
+----------- Exercise: maximum-hourglass
+Running 13 testcases: ALL PASSED
+
+Punkte: 2.0/2
+	* Tests passing 1.0 P
+	* Style passing 0.5 P
+	* CodeQ passing 0.5 P
+
+Kommentar(e):
+	* Keinen Code auskommentieren! Entweder löschen oder lassen.
+
+
+----------- Exercise: caesar-cipher
+Running 20 testcases: FAILED at test caesarcipher-03-generated
+Call was: encode("ZZZaaaAAAzzz", 33)
+expected:<[GGG]hhhHHHggg> but was:<[aaa]hhhHHHggg>
+
+Punkte: 0.0/2
+	* Tests failing 0.0 P
+	* Style inherit 0.0 P
+	* CodeQ inherit 0.0 P
+
+Kommentar(e):
+	* Code Conventionen beachten. Kein if (...) stmt
+	* Immer if (...) { <body> }
+	* Irgendwo ist ein Fehler. obwohl du modolu drin hast. 
+
+
+----------- General
+
+Punkte: 6.0/8
+Kommentar(e):
+	* Code Convensions anschauen.
+	* DocString beachten.
+
+Bei Fragen/Unklarheiten/Kritik/Verwirrungen/etc. schreibe mir gerne eine E-Mail.

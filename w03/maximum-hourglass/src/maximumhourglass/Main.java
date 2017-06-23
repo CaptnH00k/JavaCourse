@@ -1,8 +1,20 @@
 package maximumhourglass;
 
 public class Main {
+	/*public static void main(String[] args) {
+		int[][] matrix = {
+				  {-4, -4, -4, -5, -5, -5},
+				  {-5, -3, -3, -3, -5, -5},
+				  {-5, -5, -2, -2, -2, -5},
+				  {-5, -5, -5, -1, -1, -1},
+				  {-5, -5,  0,  0,  0, -5},
+				  {-5,  1,  1,  1, -5, -5},
+		};
+		System.out.println(maxHourglass(matrix));
+	}*/
+	
 	public static int maxHourglass(int[][] matrix) {
-		int maxHour = 0;
+		int maxHour = Integer.MIN_VALUE;
 		int thisHour;
 		for(int row=0;row<4;row++) {
 			// int counter for row, because the hourglass has
